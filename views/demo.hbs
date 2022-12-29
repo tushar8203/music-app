@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <audio id="myTune">
+            <source src="/Bijli Govinda Naam Mera 320 Kbps.mp3" type="audio/mpeg">
+        </audio>
+        <button onclick="playbut()">Play Music</button>
+        <button onclick="stop()">stop</button>
+    </div>
+    <script>
+        let playmusic=document.getElementById("myTune");
+        function playbut(){
+            playmusic.play();
+        }
+        function stop(){
+            playmusic.pause();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+body{
+    background-color:#3F3B6C;
+    
+}
+.navbar-expand-lg{
+    background-color:#3F3B6C;
+}
+.navbar-nav .nav-link{
+    color:#A3C7D6;
+    font-weight:bold;
+    font-family:cursive;
+}
+.nav-item .dropdown-menu{
+    background-color:#3F3B6C;
+}
+.nav-item .dropdown-menu li a{
+    color:#A3C7D6;
+    font-family:cursive;
+}
+.nav-item .dropdown-menu li a:hover{
+    background-color:#3F3B6C;
+    color:#9F73AB;
+}
+.d-flex button{
+    background-color:#3F3B6C;
+    border:2px solid black;
+    color:#A3C7D6;
+    font-weight:bold;
+    font-family:cursive;
+}
+.d-flex button:hover{
+    background-color:#9F73AB;
+    border:2px solid black;
+}
+.new-div{
+    width:80%;
+    height:auto;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.new-div .song-div{
+    width:50%;
+    height:50px;
+    line-height:50px;
+    margin-bottom:10px;
+}
+.new-div .song-div p{
+    color:#A3C7D6;
+    font-size:20px;
+    font-family:cursive;
+    cursor:pointer;
+    font-weight:bold;
+}
+h3{
+    color:#A3C7D6;
+    font-weight:bold;
+    font-family:cursive;
+    margin:0;
+}
+.song-div:hover{
+    border:1px solid #A3C7D6;
+    border-radius:8px;
+}
+.stop-div{
+    width:80%;
+    height:100px;
+    background-color:#0A2647;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.stop-div .play{
+    border:1px solid #9F73AB;
+    width:5%;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    border-radius:30px;
+    background-color:#9F73AB;
+    margin: 0px 10px 0px 10px;
+    cursor:pointer;
+}
+.stop-div i{
+    color:#A3C7D6;
+    font-size:25px;
+    cursor:pointer; 
+}

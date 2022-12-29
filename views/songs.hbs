@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/songs.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/font-awesome/css/all.min.css">
+</head>
+<body>
+    {{>navbar}}
+    <div class="new-div">
+        <div class="song-div">
+            <h3>Playlists:</h3>
+        </div>
+        <div class="song-div">
+            <p class="a">
+                Bijli (Sachin-Jigar) - Bijli From "Govinda Naam Mera"
+            </p>
+            <audio class="first">
+                <source src="/song/Dance top 50/Bijli.mp3">
+            </audio>
+        </div>
+        <div class="song-div">
+            <p class="b">
+                Dance Ka Bhoot (From "Brahmastra")
+            </p>
+            <audio class="second">
+                <source src="/song/Dance top 50/Dance_Ka_Bhoot_-_Brahm%C4%81stra___Ranbir_Kapoor___Alia_Bhatt___Pritam___Arijit_Singh___Amitabh_B.(256k).mp3">
+            </audio>
+        </div>
+        <div class="song-div">
+            <p class="c">
+                Deva Deva (From "Brahmastra")
+            </p>
+            <audio class="third">
+                <source src="/song/Dance top 50/Deva_Deva.mp3">
+            </audio>
+        </div>
+        <div class="song-div">
+            <p class="d">
+                Jugnu (Badshah)
+            </p>
+            <audio class="fourth">
+                <source src="/song/Dance top 50/Jugnu.mp3">
+            </audio>
+        </div>
+        <div class="song-div">
+            <p class="e">
+                Jungle Mein Kaand
+            </p>
+            <audio class="fifth">
+                <source src="/song/Dance top 50/Jungle_Mein_Kaand.mp3">
+            </audio>
+        </div>
+        <div class="song-div">
+            <p class="f">
+                Kesariya (From "Brahmastra")
+            </p>
+            <audio class="sixth">
+                <source src="/song/Dance top 50/Kesariya.mp3">
+            </audio>
+        </div>
+        <div class="song-div">
+            <p class="j">
+                Kesariyo Rang
+            </p>
+            <audio class="seven">
+                <source src="/song/Dance top 50/Kesariyo_Rang__Video__Lijo_G%2C_Dj_Chetas___Asees_K%2C_Dev_N___Avneet_Kaur%2C_Shantanu_Maheshwari___Kumaar(256k).mp3">
+            </audio>
+        </div>
+        <div class="song-div">
+            <p class="k">
+                Tu AakeDekhle
+            </p>
+            <audio class="eight">
+                <source src="/song/Dance top 50/King_-_Tu_Aake_Dekhle___The_Carnival___The_Last_Ride___Prod._by_Shahbeatz___Latest_Hit_Songs_2020(256k).mp3">
+            </audio>
+        </div>
+        <div class="song-div">
+            <p class="l">
+                Param Sundari
+            </p>
+            <audio class="nine">
+                <source src="/song/Dance top 50/Param_Sundari_-Official_Video___Mimi___Kriti_Sanon%2C_Pankaj_Tripathi___%40A._R._Rahman__Shreya__Amitabh(256k).mp3">
+            </audio>
+        </div>
+        <div class="song-div">
+            <p class="m">
+                Thumkeshwari
+            </p>
+            <audio class="ten">
+                <source src="/song/Dance top 50/Thumkeshwari.mp3">
+            </audio>
+        </div>
+        <div class="stop-div">
+                <i class="fa-solid fa-backward-step"></i>
+                <div class="play"><i class="fa-solid fa-pause"></i></div>
+                <i class="fa-solid fa-forward-step"></i>
+        </div>
+    </div>
+    <script>
+        document.querySelector(".a").addEventListener("click",function(){
+            document.querySelector(".first").play(); 
+        });
+        document.querySelector(".b").addEventListener("click",function(){
+            document.querySelector(".second").play();
+        });
+        document.querySelector(".c").addEventListener("click",function(){
+            document.querySelector(".third").play(); 
+        });
+        document.querySelector(".d").addEventListener("click",function(){
+            document.querySelector(".fourth").play(); 
+        });
+        document.querySelector(".e").addEventListener("click",function(){
+            document.querySelector(".fifth").play();
+        });
+        document.querySelector(".f").addEventListener("click",function(){
+            document.querySelector(".sixth").play(); 
+        });
+        document.querySelector(".j").addEventListener("click",function(){
+            document.querySelector(".seven").play(); 
+        });
+        document.querySelector(".k").addEventListener("click",function(){
+            document.querySelector(".eight").play();
+        });
+        document.querySelector(".l").addEventListener("click",function(){
+            document.querySelector(".nine").play();
+        });
+        document.querySelector(".m").addEventListener("click",function(){
+             document.querySelector(".ten").play();
+        });
+
+        document.querySelector(".play").addEventListener("click",function(){
+            document.querySelector(".fa-pause").classList.add("fa-play");
+            document.querySelector(".first").pause();
+        })
+        document.querySelector(".play").addEventListener("click",function(){
+            document.querySelector(".second").pause();
+        })
+        document.querySelector(".play").addEventListener("click",function(){
+            document.querySelector(".third").pause();
+        })
+        document.querySelector(".play").addEventListener("click",function(){
+            document.querySelector(".fourth").pause();
+        })
+        document.querySelector(".play").addEventListener("click",function(){
+            document.querySelector(".fifth").pause();
+        })
+        document.querySelector(".play").addEventListener("click",function(){
+            document.querySelector(".sixth").pause();
+        })
+        document.querySelector(".play").addEventListener("click",function(){
+            document.querySelector(".seven").pause();
+        })
+        document.querySelector(".play").addEventListener("click",function(){
+            document.querySelector(".eight").pause();
+        })
+        document.querySelector(".play").addEventListener("click",function(){
+            document.querySelector(".nine").pause();
+        })
+        document.querySelector(".play").addEventListener("click",function(){
+            document.querySelector(".ten").pause();
+        })
+    </script>
+</body>
+</html>
