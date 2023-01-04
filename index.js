@@ -12,5 +12,5 @@ app.get("/",(req,res)=>{
 app.get("/songs",(req,res)=>{
     res.render("songs");
 })
-app.listen(5071);
+app.listen(process.env.PORT || 5071);
 console.log("Server is started at the port 5071...");
